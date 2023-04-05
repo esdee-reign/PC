@@ -1,0 +1,151 @@
+.main-container {
+    height: 100%;
+}
+
+.header-btn-group {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-btn-group-item {
+    margin-right: 1.875rem;
+}
+
+.spacer {
+    flex: 1 1 auto;
+  }
+
+.input-search {
+    height: 2.1875rem;
+    width: 40%;
+    padding-left: 1rem;
+    font-size: 1rem;
+    border: 1px solid rgba(222, 222, 222, 1);
+    border-radius: 2px;
+}
+
+.input-search::placeholder {
+    color: rgba(213, 213, 213, 1);
+}
+
+.mat-toolbar {
+    height: 11%;
+}
+
+button {
+    font-size: 14px;
+}
+
+
+
+.main-content {
+    width: 100%;
+    height: 89%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.table-container {
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+    width: 76%;
+    overflow-y: scroll;
+    height: 100%;
+}
+
+.description-container {
+    overflow-y: scroll;
+    width: 24%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.description-empty {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 84%;
+    height: 2.9rem;
+    background-color: rgba(245, 245, 245, 1);
+    margin: 1rem 0 1rem 0;
+    padding-left: 1rem;
+}   
+
+.description-list-container {
+    color: rgba(10, 124, 182, 1);
+    padding: 1.25rem;
+}
+
+.add-des-text {
+    font-size: .75rem;
+    padding: 0;
+    margin: 0;
+}
+
+.btn-add-des {
+    padding: 0 .5rem 0 .5rem;
+    margin-left: .5rem;
+    font-weight: 600;
+}
+
+.mat-column-position {
+    text-align: center;
+}
+
+.mat-column-weight {
+    text-align: center;
+}
+
+.mat-column-name {
+    width: 42%;
+}
+.mat-column-date {
+    text-align: center;
+    color: rgba(176, 176, 176, 1);
+    font-size: 0.875rem;
+    letter-spacing: -4%;
+}
+
+th {
+    color: rgba(164, 164, 164, 1);
+}
+
+.btn-details:focus {
+    border-bottom: 2px solid rgba(0, 43, 66, 1);
+    border-radius: 3px 3px 0px 0px;
+    font-weight: 600;
+}
+
+.bi-actions {
+    font-size: 1rem;
+}
+
+// custom scroll-bar
+
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: rgba(172, 172, 172, 1);
+    border-radius: 8px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
